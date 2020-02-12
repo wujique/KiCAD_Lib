@@ -1,0 +1,291 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 03.0001_C0402_1uF
+D Unpolarized capacitor, small symbol
+K capacitor cap
+F ~
+$ENDCMP
+#
+$CMP 03.0002_C0402_10nF
+D Unpolarized capacitor, small symbol
+K capacitor cap
+F ~
+$ENDCMP
+#
+$CMP 03.0003_C0402_10pF
+D Unpolarized capacitor, small symbol
+K capacitor cap
+F ~
+$ENDCMP
+#
+$CMP 03.0004_C0402_15pF
+D Unpolarized capacitor, small symbol
+K capacitor cap
+F ~
+$ENDCMP
+#
+$CMP 03.0005_C0402_18pF
+D Unpolarized capacitor, small symbol
+K capacitor cap
+F ~
+$ENDCMP
+#
+$CMP 03.0006_C0402_22nF
+D Unpolarized capacitor, small symbol
+K capacitor cap
+F ~
+$ENDCMP
+#
+$CMP 03.0007_C0402_22pF
+D Unpolarized capacitor, small symbol
+K capacitor cap
+F ~
+$ENDCMP
+#
+$CMP 03.0008_C0402_33pF
+D Unpolarized capacitor, small symbol
+K capacitor cap
+F ~
+$ENDCMP
+#
+$CMP 03.0009_C0402_100nF
+D Unpolarized capacitor, small symbol
+K capacitor cap
+F ~
+$ENDCMP
+#
+$CMP 03.0010_C0402_100pF
+D Unpolarized capacitor, small symbol
+K capacitor cap
+F ~
+$ENDCMP
+#
+$CMP 03.0011_C0603_1uF
+D Unpolarized capacitor, small symbol
+K capacitor cap
+F ~
+$ENDCMP
+#
+$CMP 03.0012_C0603_2.2uF
+D Unpolarized capacitor, small symbol
+K capacitor cap
+F ~
+$ENDCMP
+#
+$CMP 03.0013_C0805_4.7uF
+D Unpolarized capacitor, small symbol
+K capacitor cap
+F ~
+$ENDCMP
+#
+$CMP 03.0014_C0805_10uF
+D Unpolarized capacitor, small symbol
+K capacitor cap
+F ~
+$ENDCMP
+#
+$CMP 03.0015_C0603_4.7uF
+D Unpolarized capacitor, small symbol
+K capacitor cap
+F ~
+$ENDCMP
+#
+$CMP 03.0016_C0603_10uF
+D Unpolarized capacitor, small symbol
+K capacitor cap
+F ~
+$ENDCMP
+#
+$CMP 04.0001_CP1210_10uF
+D Polarized capacitor, small US symbol
+K cap capacitor
+F ~
+$ENDCMP
+#
+$CMP 04.0002_CP1210_47uF
+D Polarized capacitor, small US symbol
+K cap capacitor
+F ~
+$ENDCMP
+#
+$CMP 04.0003_CP1210_100uF
+D Polarized capacitor, small US symbol
+K cap capacitor
+F ~
+$ENDCMP
+#
+$CMP 06.0101_L3521_10uH
+D Inductor
+K inductor choke coil reactor magnetic
+F ~
+$ENDCMP
+#
+$CMP 06.0102_L2520_2.2uH
+D Inductor
+K inductor choke coil reactor magnetic
+F ~
+$ENDCMP
+#
+$CMP 07.0001_Fuse_0805_1000mA
+D Fuse, small symbol
+K fuse
+F ~
+$ENDCMP
+#
+$CMP 07.0002_D_TVS_PESDNC2FD5VB
+D Bidirectional transient-voltage-suppression diode
+K diode TVS thyrector
+F ~
+$ENDCMP
+#
+$CMP 07.0003_PTVSHC3N7VU
+D Dual Zener diode, common cathode on pin 3
+K diode zener dual
+F ~
+$ENDCMP
+#
+$CMP 07.0004_Fuse_0805_500mA
+D Fuse, small symbol
+K fuse
+F ~
+$ENDCMP
+#
+$CMP 07.0101_BAT54C
+D dual schottky barrier diode, common cathode
+K schottky diode common cathode
+F http://www.diodes.com/_files/datasheets/ds11005.pdf
+$ENDCMP
+#
+$CMP 07.0201_LED_Red_0603
+D Light emitting diode
+K LED diode
+F ~
+$ENDCMP
+#
+$CMP 07.0401_Crystal_FC_135_32.768k
+D Two pin crystal, small symbol
+K quartz ceramic resonator oscillator
+F ~
+$ENDCMP
+#
+$CMP 07.0402_Crystal_8M_50321
+D Four pin crystal, GND on pins 2 and 4, small symbol
+K quartz ceramic resonator oscillator
+F ~
+$ENDCMP
+#
+$CMP 07.0403_Crystal_24M_3225
+D Four pin crystal, GND on pins 2 and 4, small symbol
+K quartz ceramic resonator oscillator
+F ~
+$ENDCMP
+#
+$CMP 09.0001_CP2104
+D Single-Chip USB-to-UART Bridge, USB 2.0 Full-Speed, 2Mbps UART, QFN package
+K uart usb bridge interface transceiver
+F https://www.silabs.com/documents/public/data-sheets/cp2104.pdf
+$ENDCMP
+#
+$CMP 09.0103_XC6206
+D 300mA Low Dropout Voltage Regulator, Fixed Output 1.2V, SOT-23
+K 300mA LDO Regulator Fixed Positive
+F http://www.tme.eu/fr/Document/ced3461ed31ea70a3c416fb648e0cde7/APE8865-3.pdf
+$ENDCMP
+#
+$CMP 09.0301_W25Q32JVSS
+D 32Mb Serial Flash Memory, Standard/Dual/Quad SPI, SOIC-8
+K flash memory SPI
+F http://www.winbond.com/resource-files/w25q32jv%20revg%2003272018%20plus.pdf
+$ENDCMP
+#
+$CMP 09.0302_W25Q128JVS
+D 128Mb Serial Flash Memory, Standard/Dual/Quad SPI, SOIC-8
+K flash memory SPI QPI DTR
+F http://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf
+$ENDCMP
+#
+$CMP 10.0001_Micro_SD_Card
+D Micro SD Card Socket
+K connector SD microsd
+F https://item.szlcsc.com/92334.html
+$ENDCMP
+#
+$CMP 10.0002_USB_Micro
+D USB mini/micro connector
+K connector USB
+F https://item.szlcsc.com/10961.html
+$ENDCMP
+#
+$CMP 10.0101_FPC_18_0D5_BR
+D Generic connectable mounting pin connector, single row, 01x18, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP 10.0102_FPC_30_0D5_BR
+D Generic connectable mounting pin connector, single row, 01x30, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP 10.0103_FPC_40_0D5_BR
+D Generic connectable mounting pin connector, single row, 01x40, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP 10.0201_PH2X15_2D54_V
+D Generic connector, double row, 02x15, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP 10.0202_PH2X9_2D54_V
+D Generic connector, double row, 02x09, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP 10.0401_LCD_8080_WJQ
+D Generic connectable mounting pin connector, single row, 01x30, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP 10.0402_LCD_RGB_CON_WJQ
+D Generic connectable mounting pin connector, single row, 01x40, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP 11.0101_SW-A03-08
+D Push button switch, generic, two pins
+K switch normally-open pushbutton push-button
+F https://detail.tmall.com/item.htm?spm=a230r.1.14.20.356315f4vnWHTm&id=45804817908&ns=1&abbucket=9
+$ENDCMP
+#
+$CMP 11.0102_SW-TD-19XA
+D Push button switch, generic, two pins
+K switch normally-open pushbutton push-button
+F https://item.szlcsc.com/119400.html
+$ENDCMP
+#
+$CMP 11.0103_SW-TS-1187
+D Push button switch, generic, two pins
+K switch normally-open pushbutton push-button
+F https://item.szlcsc.com/109868.html
+$ENDCMP
+#
+$CMP 11.0104_SW_DIP_x02_1D27
+D 2x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol
+K dip switch
+F ~
+$ENDCMP
+#
+$CMP MountingHole_Pad_M3
+D Mounting Hole with connection
+K mounting hole
+F ~
+$ENDCMP
+#
+#End Doc Library
