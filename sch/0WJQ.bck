@@ -90,12 +90,6 @@ K capacitor cap
 F ~
 $ENDCMP
 #
-$CMP 03.0015_C603_4.7uF
-D Unpolarized capacitor, small symbol
-K capacitor cap
-F ~
-$ENDCMP
-#
 $CMP 03.0016_C0603_10uF
 D Unpolarized capacitor, small symbol
 K capacitor cap
@@ -186,6 +180,10 @@ K quartz ceramic resonator oscillator
 F ~
 $ENDCMP
 #
+$CMP 08.0002_STM32H750VBT6
+F ST MICROELECTRONICS
+$ENDCMP
+#
 $CMP 09.0001_CP2104
 D Single-Chip USB-to-UART Bridge, USB 2.0 Full-Speed, 2Mbps UART, QFN package
 K uart usb bridge interface transceiver
@@ -196,6 +194,12 @@ $CMP 09.0103_XC6206
 D 300mA Low Dropout Voltage Regulator, Fixed Output 1.2V, SOT-23
 K 300mA LDO Regulator Fixed Positive
 F http://www.tme.eu/fr/Document/ced3461ed31ea70a3c416fb648e0cde7/APE8865-3.pdf
+$ENDCMP
+#
+$CMP 09.0103_XC6206P302MR
+D 300mA Low Dropout Voltage Regulator, Fixed Output 1.2V, SOT-23
+K 300mA LDO Regulator Fixed Positive
+F https://item.szlcsc.com/10507.html
 $ENDCMP
 #
 $CMP 09.0301_W25Q32JVSS
@@ -213,12 +217,13 @@ $ENDCMP
 $CMP 10.0001_Micro_SD_Card
 D Micro SD Card Socket
 K connector SD microsd
+F https://item.szlcsc.com/92334.html
 $ENDCMP
 #
 $CMP 10.0002_USB_Micro
 D USB mini/micro connector
 K connector USB
-F  ~
+F https://item.szlcsc.com/10961.html
 $ENDCMP
 #
 $CMP 10.0101_FPC_18_0D5_BR
@@ -266,19 +271,19 @@ $ENDCMP
 $CMP 11.0101_SW-A03-08
 D Push button switch, generic, two pins
 K switch normally-open pushbutton push-button
-F ~
+F https://detail.tmall.com/item.htm?spm=a230r.1.14.20.356315f4vnWHTm&id=45804817908&ns=1&abbucket=9
 $ENDCMP
 #
 $CMP 11.0102_SW-TD-19XA
 D Push button switch, generic, two pins
 K switch normally-open pushbutton push-button
-F ~
+F https://item.szlcsc.com/119400.html
 $ENDCMP
 #
 $CMP 11.0103_SW-TS-1187
 D Push button switch, generic, two pins
 K switch normally-open pushbutton push-button
-F ~
+F https://item.szlcsc.com/109868.html
 $ENDCMP
 #
 $CMP 11.0104_SW_DIP_x02_1D27

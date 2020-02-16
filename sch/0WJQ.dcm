@@ -180,16 +180,18 @@ K quartz ceramic resonator oscillator
 F ~
 $ENDCMP
 #
+$CMP 08.0002_STM32H750VBT6
+F ST MICROELECTRONICS
+$ENDCMP
+#
 $CMP 09.0001_CP2104
 D Single-Chip USB-to-UART Bridge, USB 2.0 Full-Speed, 2Mbps UART, QFN package
 K uart usb bridge interface transceiver
 F https://www.silabs.com/documents/public/data-sheets/cp2104.pdf
 $ENDCMP
 #
-$CMP 09.0103_XC6206
-D 300mA Low Dropout Voltage Regulator, Fixed Output 1.2V, SOT-23
-K 300mA LDO Regulator Fixed Positive
-F http://www.tme.eu/fr/Document/ced3461ed31ea70a3c416fb648e0cde7/APE8865-3.pdf
+$CMP 09.0103_XC6206P302MR
+F https://item.szlcsc.com/10507.html
 $ENDCMP
 #
 $CMP 09.0301_W25Q32JVSS
