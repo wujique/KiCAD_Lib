@@ -96,6 +96,54 @@ K capacitor cap
 F ~
 $ENDCMP
 #
+$CMP 03.4001_C0603_1uF
+D Unpolarized capacitor, small symbol
+K capacitor cap
+F ~
+$ENDCMP
+#
+$CMP 03.4001_C0805_4.7uF
+D Unpolarized capacitor, small symbol
+K capacitor cap
+F ~
+$ENDCMP
+#
+$CMP 03.4002_C0603_2.2uF
+D Unpolarized capacitor, small symbol
+K capacitor cap
+F ~
+$ENDCMP
+#
+$CMP 03.4002_C0805_10uF
+D Unpolarized capacitor, small symbol
+K capacitor cap
+F ~
+$ENDCMP
+#
+$CMP 03.4003_C0603_4.7uF
+D Unpolarized capacitor, small symbol
+K capacitor cap
+F ~
+$ENDCMP
+#
+$CMP 03.4004_C0603_10uF
+D Unpolarized capacitor, small symbol
+K capacitor cap
+F ~
+$ENDCMP
+#
+$CMP 03.8001_C0805_4.7uF
+D Unpolarized capacitor, small symbol
+K capacitor cap
+F ~
+$ENDCMP
+#
+$CMP 03.8002_C0805_10uF
+D Unpolarized capacitor, small symbol
+K capacitor cap
+F ~
+$ENDCMP
+#
 $CMP 04.0001_CP1210_10uF
 D Polarized capacitor, small US symbol
 K cap capacitor
@@ -190,15 +238,7 @@ K uart usb bridge interface transceiver
 F https://www.silabs.com/documents/public/data-sheets/cp2104.pdf
 $ENDCMP
 #
-$CMP 09.0103_XC6206
-D 300mA Low Dropout Voltage Regulator, Fixed Output 1.2V, SOT-23
-K 300mA LDO Regulator Fixed Positive
-F http://www.tme.eu/fr/Document/ced3461ed31ea70a3c416fb648e0cde7/APE8865-3.pdf
-$ENDCMP
-#
 $CMP 09.0103_XC6206P302MR
-D 300mA Low Dropout Voltage Regulator, Fixed Output 1.2V, SOT-23
-K 300mA LDO Regulator Fixed Positive
 F https://item.szlcsc.com/10507.html
 $ENDCMP
 #
