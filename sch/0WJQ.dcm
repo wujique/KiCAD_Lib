@@ -114,6 +114,12 @@ K cap capacitor
 F ~
 $ENDCMP
 #
+$CMP 04.0004_CP1210_4.7uF
+D Polarized capacitor, small US symbol
+K cap capacitor
+F ~
+$ENDCMP
+#
 $CMP 06.0101_L3521_10uH
 D Inductor
 K inductor choke coil reactor magnetic

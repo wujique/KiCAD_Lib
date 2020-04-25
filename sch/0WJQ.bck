@@ -60,61 +60,13 @@ K capacitor cap
 F ~
 $ENDCMP
 #
-$CMP 03.0011_C0603_1uF
-D Unpolarized capacitor, small symbol
-K capacitor cap
-F ~
-$ENDCMP
-#
-$CMP 03.0012_C0603_2.2uF
-D Unpolarized capacitor, small symbol
-K capacitor cap
-F ~
-$ENDCMP
-#
-$CMP 03.0013_C0805_4.7uF
-D Unpolarized capacitor, small symbol
-K capacitor cap
-F ~
-$ENDCMP
-#
-$CMP 03.0014_C0805_10uF
-D Unpolarized capacitor, small symbol
-K capacitor cap
-F ~
-$ENDCMP
-#
-$CMP 03.0015_C0603_4.7uF
-D Unpolarized capacitor, small symbol
-K capacitor cap
-F ~
-$ENDCMP
-#
-$CMP 03.0016_C0603_10uF
-D Unpolarized capacitor, small symbol
-K capacitor cap
-F ~
-$ENDCMP
-#
 $CMP 03.4001_C0603_1uF
 D Unpolarized capacitor, small symbol
 K capacitor cap
 F ~
 $ENDCMP
 #
-$CMP 03.4001_C0805_4.7uF
-D Unpolarized capacitor, small symbol
-K capacitor cap
-F ~
-$ENDCMP
-#
 $CMP 03.4002_C0603_2.2uF
-D Unpolarized capacitor, small symbol
-K capacitor cap
-F ~
-$ENDCMP
-#
-$CMP 03.4002_C0805_10uF
 D Unpolarized capacitor, small symbol
 K capacitor cap
 F ~
@@ -157,6 +109,12 @@ F ~
 $ENDCMP
 #
 $CMP 04.0003_CP1210_100uF
+D Polarized capacitor, small US symbol
+K cap capacitor
+F ~
+$ENDCMP
+#
+$CMP 04.0004_CP1210_4.7uF
 D Polarized capacitor, small US symbol
 K cap capacitor
 F ~
