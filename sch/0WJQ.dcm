@@ -190,10 +190,28 @@ $CMP 08.0002_STM32H750VBT6
 F ST MICROELECTRONICS
 $ENDCMP
 #
+$CMP 08.0003_RT1052CVJ5B
+F IPC-7351B
+$ENDCMP
+#
 $CMP 09.0001_CP2104
 D Single-Chip USB-to-UART Bridge, USB 2.0 Full-Speed, 2Mbps UART, QFN package
 K uart usb bridge interface transceiver
 F https://www.silabs.com/documents/public/data-sheets/cp2104.pdf
+$ENDCMP
+#
+$CMP 09.0008_USB2514BI-AEZG
+F Microchip
+$ENDCMP
+#
+$CMP 09.0009_LAN8720A
+D LAN8720 Ethernet PHY with RMII interface
+K ETH PHY RMII
+F http://ww1.microchip.com/downloads/en/DeviceDoc/8720a.pdf
+$ENDCMP
+#
+$CMP 09.0010_WM8960
+F http://ww1.microchip.com/downloads/en/DeviceDoc/8720a.pdf
 $ENDCMP
 #
 $CMP 09.0103_XC6206P302MR
@@ -222,6 +240,16 @@ $CMP 10.0002_USB_Micro
 D USB mini/micro connector
 K connector USB
 F https://item.szlcsc.com/10961.html
+$ENDCMP
+#
+$CMP 10.0003_HR911105A
+F HR911105A
+$ENDCMP
+#
+$CMP 10.0004_USB_A_
+D USB Type A connector
+K connector USB
+F  ~
 $ENDCMP
 #
 $CMP 10.0101_FPC_18_0D5_BR
