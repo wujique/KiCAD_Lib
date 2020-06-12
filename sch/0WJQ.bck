@@ -132,6 +132,12 @@ K inductor choke coil reactor magnetic
 F ~
 $ENDCMP
 #
+$CMP 06.0401_100MHZ_600R
+D Ferrite bead, small symbol
+K L ferrite bead inductor filter
+F ~
+$ENDCMP
+#
 $CMP 07.0001_Fuse_0805_1000mA
 D Fuse, small symbol
 K fuse
@@ -252,6 +258,18 @@ K connector USB
 F  ~
 $ENDCMP
 #
+$CMP 10.0005_USB_A
+D USB Type A connector
+K connector USB
+F  ~
+$ENDCMP
+#
+$CMP 10.0006_USB_C
+D USB 2.0-only Type-C Receptacle connector
+K usb universal serial bus type-C USB2.0
+F https://www.usb.org/sites/default/files/documents/usb_type-c.zip
+$ENDCMP
+#
 $CMP 10.0101_FPC_18_0D5_BR
 D Generic connectable mounting pin connector, single row, 01x18, script generated (kicad-library-utils/schlib/autogen/connector/)
 K connector
@@ -266,6 +284,12 @@ $ENDCMP
 #
 $CMP 10.0103_FPC_40_0D5_BR
 D Generic connectable mounting pin connector, single row, 01x40, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP 10.0104_FPC_18_0D5_V
+D Generic connectable mounting pin connector, single row, 01x18, script generated (kicad-library-utils/schlib/autogen/connector/)
 K connector
 F ~
 $ENDCMP
@@ -290,6 +314,11 @@ $ENDCMP
 #
 $CMP 10.0402_LCD_RGB_CON_WJQ
 D Generic connectable mounting pin connector, single row, 01x40, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP 10.0403_d_m2_socket
 K connector
 F ~
 $ENDCMP
