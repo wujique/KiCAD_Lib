@@ -1,5 +1,21 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 02.0031_R0402_30k_1%
+D 贴片电阻
+$ENDCMP
+#
+$CMP 02.0032_R0402_3k9_1%
+D 贴片电阻
+$ENDCMP
+#
+$CMP 02.0033_R0402_24K_1%
+D 贴片电阻
+$ENDCMP
+#
+$CMP 02.0034_R0402_27K_1%
+D 贴片电阻
+$ENDCMP
+#
 $CMP 03.0001_C0402_1uF
 D Unpolarized capacitor, small symbol
 K capacitor cap
@@ -60,6 +76,30 @@ K capacitor cap
 F ~
 $ENDCMP
 #
+$CMP 03.0011_C0402_1000pF
+D Unpolarized capacitor, small symbol
+K capacitor cap
+F ~
+$ENDCMP
+#
+$CMP 03.0012_C0402_220nF
+D Unpolarized capacitor, small symbol
+K capacitor cap
+F ~
+$ENDCMP
+#
+$CMP 03.1001_C0402_100nF
+D Unpolarized capacitor, small symbol
+K capacitor cap
+F ~
+$ENDCMP
+#
+$CMP 03.1002_C0402_2n2
+D Unpolarized capacitor, small symbol
+K capacitor cap
+F ~
+$ENDCMP
+#
 $CMP 03.4001_C0603_1uF
 D Unpolarized capacitor, small symbol
 K capacitor cap
@@ -84,6 +124,12 @@ K capacitor cap
 F ~
 $ENDCMP
 #
+$CMP 03.4005_C0603_22uF
+D Unpolarized capacitor, small symbol
+K capacitor cap
+F ~
+$ENDCMP
+#
 $CMP 03.8001_C0805_4.7uF
 D Unpolarized capacitor, small symbol
 K capacitor cap
@@ -91,6 +137,12 @@ F ~
 $ENDCMP
 #
 $CMP 03.8002_C0805_10uF
+D Unpolarized capacitor, small symbol
+K capacitor cap
+F ~
+$ENDCMP
+#
+$CMP 03.9001_C1206_10uF
 D Unpolarized capacitor, small symbol
 K capacitor cap
 F ~
@@ -120,6 +172,12 @@ K cap capacitor
 F ~
 $ENDCMP
 #
+$CMP 04.1001_E0810_220uF
+D Polarized capacitor, small symbol
+K cap capacitor
+F ~
+$ENDCMP
+#
 $CMP 06.0101_L3521_10uH
 D Inductor
 K inductor choke coil reactor magnetic
@@ -127,6 +185,18 @@ F ~
 $ENDCMP
 #
 $CMP 06.0102_L2520_2.2uH
+D Inductor
+K inductor choke coil reactor magnetic
+F ~
+$ENDCMP
+#
+$CMP 06.0103_L2520_6.8uH
+D Inductor
+K inductor choke coil reactor magnetic
+F ~
+$ENDCMP
+#
+$CMP 06.0104_L2520_4.7uH
 D Inductor
 K inductor choke coil reactor magnetic
 F ~
@@ -168,10 +238,31 @@ K schottky diode common cathode
 F http://www.diodes.com/_files/datasheets/ds11005.pdf
 $ENDCMP
 #
+$CMP 07.0102_MBR120VLSFT1G
+D 20V 1A Schottky Power Rectifier Diode, SOD-123
+$ENDCMP
+#
+$CMP 07.0103_1N4148WS
+D 75V 0.15A Fast switching Diode, SOD-323
+K diode
+$ENDCMP
+#
+$CMP 07.0104_B5819WT
+K diode
+$ENDCMP
+#
+$CMP 07.0105_SS14
+K diode
+$ENDCMP
+#
 $CMP 07.0201_LED_Red_0603
 D Light emitting diode
 K LED diode
 F ~
+$ENDCMP
+#
+$CMP 07.0301_MMBT8050
+D 三极管
 $ENDCMP
 #
 $CMP 07.0401_Crystal_FC_135_32.768k
@@ -192,12 +283,23 @@ K quartz ceramic resonator oscillator
 F ~
 $ENDCMP
 #
+$CMP 07.0501_NCE40P40K
+D P-MOSFET transistor, gate/drain/source
+K transistor PMOS P-MOS P-MOSFET
+F ~
+$ENDCMP
+#
+$CMP 08.0001_F1C200S
+D CPU 全志
+$ENDCMP
+#
 $CMP 08.0002_STM32H750VBT6
+D CPU ST M7
 F ST MICROELECTRONICS
 $ENDCMP
 #
-$CMP 08.0003_RT1052CVJ5B
-F IPC-7351B
+$CMP 08.0003_RT1015
+D CPU NXP
 $ENDCMP
 #
 $CMP 09.0001_CP2104
@@ -206,7 +308,32 @@ K uart usb bridge interface transceiver
 F https://www.silabs.com/documents/public/data-sheets/cp2104.pdf
 $ENDCMP
 #
+$CMP 09.0002_PAW3212
+D 鼠标传感器
+$ENDCMP
+#
+$CMP 09.0003_NS2009
+D 四线电阻触摸屏转换
+$ENDCMP
+#
+$CMP 09.0004_SY7201
+D 背光IC
+$ENDCMP
+#
+$CMP 09.0005_SP3232EE
+D RS232 串口
+$ENDCMP
+#
+$CMP 09.0006_SP3485E
+D 485总线
+$ENDCMP
+#
+$CMP 09.0007_VP230
+D CAN总线
+$ENDCMP
+#
 $CMP 09.0008_USB2514BI-AEZG
+D USB HUB
 F Microchip
 $ENDCMP
 #
@@ -217,11 +344,56 @@ F http://ww1.microchip.com/downloads/en/DeviceDoc/8720a.pdf
 $ENDCMP
 #
 $CMP 09.0010_WM8960
+D Codec
 F http://ww1.microchip.com/downloads/en/DeviceDoc/8720a.pdf
 $ENDCMP
 #
+$CMP 09.0011_MSI001
+D IC 射频tuner
+$ENDCMP
+#
+$CMP 09.0012_MSI2500
+D IC 电视棒
+$ENDCMP
+#
+$CMP 09.0013_PE42641
+D 射频开关
+$ENDCMP
+#
+$CMP 09.0014_SKY13251
+D 射频开关
+$ENDCMP
+#
+$CMP 09.0015_MGA68563
+D 射频放大器
+$ENDCMP
+#
+$CMP 09.0101_AIC1733-33PVT
+D LDO
+$ENDCMP
+#
+$CMP 09.0102_EA3036
+D 电源IC
+$ENDCMP
+#
 $CMP 09.0103_XC6206P302MR
+D LDO
 F https://item.szlcsc.com/10507.html
+$ENDCMP
+#
+$CMP 09.0104_SY6280AAAC
+D 功率开关
+$ENDCMP
+#
+$CMP 09.0105_TPS54331
+D DCDC
+K Step-Down DC-DC Switching Regulator
+F http://www.ti.com/lit/ds/symlink/tps54336a.pdf
+$ENDCMP
+#
+$CMP 09.0106_RT7272B
+D DCDC
+K Step-Down DC-DC Switching Regulator
 $ENDCMP
 #
 $CMP 09.0301_W25Q32JVSS
@@ -234,6 +406,14 @@ $CMP 09.0302_W25Q128JVS
 D 128Mb Serial Flash Memory, Standard/Dual/Quad SPI, SOIC-8
 K flash memory SPI QPI DTR
 F http://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf
+$ENDCMP
+#
+$CMP 09.0303_GD5F1GQ4
+D SPI NAND
+$ENDCMP
+#
+$CMP 09.4001_LM393DGKR
+D 比较器
 $ENDCMP
 #
 $CMP 10.0001_Micro_SD_Card
@@ -249,6 +429,7 @@ F https://item.szlcsc.com/10961.html
 $ENDCMP
 #
 $CMP 10.0003_HR911105A
+D 网口
 F HR911105A
 $ENDCMP
 #
@@ -268,6 +449,16 @@ $CMP 10.0006_USB_C
 D USB 2.0-only Type-C Receptacle connector
 K usb universal serial bus type-C USB2.0
 F https://www.usb.org/sites/default/files/documents/usb_type-c.zip
+$ENDCMP
+#
+$CMP 10.0007_PJ342
+D 3.5音频插座
+$ENDCMP
+#
+$CMP 10.0008_8P8C_LED_Shielded
+D RJ connector, 8P8C (8 positions 8 connected), two LEDs, RJ45, Shielded
+K 8P8C RJ female connector led
+F ~
 $ENDCMP
 #
 $CMP 10.0101_FPC_18_0D5_BR
@@ -290,6 +481,11 @@ $ENDCMP
 #
 $CMP 10.0104_FPC_18_0D5_V
 D Generic connectable mounting pin connector, single row, 01x18, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP 10.0105_FPC_30_0D5_2_H
 K connector
 F ~
 $ENDCMP
@@ -323,6 +519,28 @@ K connector
 F ~
 $ENDCMP
 #
+$CMP 10.0404_LCD_RGB_CON
+K connector
+F ~
+$ENDCMP
+#
+$CMP 10.0501_KF128_3D5_2P
+D 接线端子
+$ENDCMP
+#
+$CMP 10.0502_SH-1D25-2P
+D 接线端子
+$ENDCMP
+#
+$CMP 11.0001_SQMS5002S4003D
+D 电磁蜂鸣器
+$ENDCMP
+#
+$CMP 11.0002_HR641680E
+D Ethernet LAN 10/100 Base-Tx Transformer with Center Taps
+K single port ethernet transformer poe center-tap
+$ENDCMP
+#
 $CMP 11.0101_SW-A03-08
 D Push button switch, generic, two pins
 K switch normally-open pushbutton push-button
@@ -345,6 +563,18 @@ $CMP 11.0104_SW_DIP_x02_1D27
 D 2x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol
 K dip switch
 F ~
+$ENDCMP
+#
+$CMP 12.0001_imx6ull_mier
+D CPU模组
+$ENDCMP
+#
+$CMP 12.0002_PT72EP_TH
+D 打印机模组 热敏头
+$ENDCMP
+#
+$CMP 12.0003_PT72EP_CUT
+D 打印机模组 热敏头
 $ENDCMP
 #
 $CMP MountingHole_Pad_M3

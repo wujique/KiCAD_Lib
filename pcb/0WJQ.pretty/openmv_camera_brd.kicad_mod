@@ -1,8 +1,0 @@
-(module openmv_camera_brd (layer F.Cu) (tedit 5EDCD788)
-  (fp_text reference REF** (at 0 0.5) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text value openmv_camera_brd (at 0 -0.5) (layer F.Fab)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-)
