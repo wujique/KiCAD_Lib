@@ -16,6 +16,14 @@ $CMP 02.0034_R0402_27K_1%
 D 贴片电阻
 $ENDCMP
 #
+$CMP 02.0035_R0402_430R_1%
+D 贴片电阻
+$ENDCMP
+#
+$CMP 02.0036_R0402_300R_1%
+D 贴片电阻
+$ENDCMP
+#
 $CMP 03.0001_C0402_1uF
 D Unpolarized capacitor, small symbol
 K capacitor cap
